@@ -33,6 +33,20 @@
                 flex-direction: column;
             }
 
+            .notice-bar {
+                background-color:firebrick;
+                padding: 5px;
+                display: flex;
+                column-gap: 15px;
+            }
+
+            .notice-txt {
+                color: white;
+                font-size: 15px;
+                padding: 0px;
+                margin: 0px;
+            }
+
             .nav-bar {
                 display: flex;
                 justify-content: space-between;
@@ -206,6 +220,10 @@
         </style>
     </head>
     <body>
+        <div class="notice-bar">
+            <img src="info.svg" />
+            <p class="notice-txt">Notice: Because the app is rarely used it is not being maintained anymore. Therefore some functionality is disabled.</p>
+        </div>
         <div class="nav-bar">
             <p>JURL</p>
             <a href="https://github.com/Jelka33/jurl"><span>View code on Github</span></a>
